@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Crebitos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Crebitos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Crebitos.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Crebitos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Crebitos.Domain/Crebitos.Domain.csproj",
+      "msbuildProject": "../Crebitos.Domain/Crebitos.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Crebitos.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/dsvalpha/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/dsvalpha/repos/Crebitos/Core/Crebitos.Application/Crebitos.Application.csproj",
+      "projectName": "Crebitos.Application",
+      "projectPath": "/Users/dsvalpha/repos/Crebitos/Core/Crebitos.Application/Crebitos.Application.csproj",
+      "packagesPath": "/Users/dsvalpha/.nuget/packages/",
+      "outputPath": "/Users/dsvalpha/repos/Crebitos/Core/Crebitos.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/dsvalpha/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/dsvalpha/repos/Crebitos/Core/Crebitos.Domain/Crebitos.Domain.csproj": {
+              "projectPath": "/Users/dsvalpha/repos/Crebitos/Core/Crebitos.Domain/Crebitos.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{FFFD28E5-5EF7-4943-AFCC-7FE067D5171C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crebitos.API", "Web\Crebitos.API\Crebitos.API.csproj", "{015E4080-4F37-4C2A-959B-616BF0F7A165}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4DF69F5F-1114-454F-98B2-FD02D98AA41A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crebitos.Application", "Core\Crebitos.Application\Crebitos.Application.csproj", "{FE314E6C-0298-4898-B394-4F6D2D05C97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crebitos.Domain", "Core\Crebitos.Domain\Crebitos.Domain.csproj", "{598B200E-CB64-49F6-97DB-6F33A82C46C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{015E4080-4F37-4C2A-959B-616BF0F7A165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015E4080-4F37-4C2A-959B-616BF0F7A165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015E4080-4F37-4C2A-959B-616BF0F7A165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015E4080-4F37-4C2A-959B-616BF0F7A165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE314E6C-0298-4898-B394-4F6D2D05C97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE314E6C-0298-4898-B394-4F6D2D05C97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE314E6C-0298-4898-B394-4F6D2D05C97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE314E6C-0298-4898-B394-4F6D2D05C97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598B200E-CB64-49F6-97DB-6F33A82C46C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598B200E-CB64-49F6-97DB-6F33A82C46C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598B200E-CB64-49F6-97DB-6F33A82C46C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598B200E-CB64-49F6-97DB-6F33A82C46C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{015E4080-4F37-4C2A-959B-616BF0F7A165} = {FFFD28E5-5EF7-4943-AFCC-7FE067D5171C}
+		{FE314E6C-0298-4898-B394-4F6D2D05C97F} = {4DF69F5F-1114-454F-98B2-FD02D98AA41A}
+		{598B200E-CB64-49F6-97DB-6F33A82C46C4} = {4DF69F5F-1114-454F-98B2-FD02D98AA41A}
+	EndGlobalSection
+EndGlobal
